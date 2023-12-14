@@ -1,0 +1,59 @@
+.lesson-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lesson-item__top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lesson {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(38, 155, 135);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px white solid;
+    box-sizing: border-box;
+}
+
+.lesson__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px rgb(38, 155, 135) solid;
+    box-sizing: border-box;
+}
+
+.add {
+    cursor: pointer;
+    background-color: lawngreen;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px white solid;
+    box-sizing: border-box;
+}
+
+.delete {
+    cursor: pointer;
+    background-color: orangered;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px white solid;
+    box-sizing: border-box;
+}
